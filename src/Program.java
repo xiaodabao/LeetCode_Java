@@ -1,14 +1,12 @@
-import org.Array.MedianOfTwoSortedArrays;
-import org.HashTable.*;
-import org.Stack.ValidParentheses;
+
+import org.Tree.PathSum;
+import org.Tree.TreeNode;
 public class Program {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		ValidParentheses m = new ValidParentheses();
-		
-		boolean count = m.isValid("()");
-		System.out.println(count);
+		PathSum path = new PathSum();
+		TreeNode tree = new TreeNode(1);
+		path.hasPathSum(tree, 1);
 	}
 
 }
